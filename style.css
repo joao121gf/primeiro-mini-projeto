@@ -1,122 +1,103 @@
 @charset "UTF-8";
 @font-face {
-    font-family: 'android';
-    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
-    font-weight: normal
+  font-family: "android";
+  src: url(pacote-projeto-d010/fontes/idroid.otf) format("opentype");
+  font-weight: normal;
 }
 
 body {
-    /* Colocando fonte */
-    font-family:Arial, Helvetica, sans-serif;
-    margin: auto;
-    background-color: #00726769;
+  /* Colocando fonte */
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  background-color: #00726769;
 }
 
 header {
-    background-image: linear-gradient(to bottom, #005C53,#042940 );
-    color: white;
-    padding: 23px;
-    padding-top: 50px;
-    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.336);
+  background-image: linear-gradient(to bottom, #005c53, #042940);
+  color: white;
+  padding: 23px;
+  padding-top: 50px;
+  box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.336);
 }
 
-h1{
-    font-size: 2.4em;
-    text-align: center;
-    text-shadow: 5px 4px 0px rgba(0, 0, 0, 0.39);
-    
+h1 {
+  font-size: 2.4em;
+  text-align: center;
+  text-shadow: 5px 4px 0px rgba(0, 0, 0, 0.39);
 }
 
 section > p {
-    text-align: center;
-    text-shadow: 2px 1px 1px black;
-    font-size: 1.2em;
-    color:white;
-
+  text-align: center;
+  text-shadow: 2px 1px 1px black;
+  font-size: 1.2em;
+  color: white;
 }
 
-
-
-
 nav > a {
-    color: white;
-    text-decoration: none;
-    background-color: #005C53;
-    padding: 5px 10px;
-    margin-right: 3px;
-    font-size: 1.1em;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 10px;
-    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.308);
-    transition-duration: .2s;
-
-
+  color: white;
+  text-decoration: none;
+  background-color: #005c53;
+  padding: 5px 10px;
+  margin-right: 3px;
+  font-size: 1.1em;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.308);
+  transition-duration: 0.2s;
 }
 
 nav {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 nav > a:hover {
-    background-color: #daf700cb;
-    padding: 10px;
-    color: black;
-
+  background-color: #daf700cb;
+  padding: 10px;
+  color: black;
 }
 
-
 main {
-    background-color: white;
-    
-    font-size: 1.1em;
-    text-align: justify;
-    padding: 30px 40px;
-    min-width: 300px;
-    max-width: 860px;
-    margin: auto;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-    margin-bottom: 50px;
-    box-shadow: 4px 6px 9px rgba(0, 0, 0, 0.493);
+  background-color: white;
 
-
+  font-size: 1.1em;
+  text-align: justify;
+  padding: 30px 40px;
+  min-width: 280px;
+  max-width: 800px;
+  margin: auto;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-bottom: 50px;
+  box-shadow: 4px 6px 9px rgba(0, 0, 0, 0.493);
 }
 
 main > p {
-    text-indent: 20px;
-    font-size: 1.1em;
-    margin: 10px;
-    margin-top: 22px;
-    margin-bottom: 35px;
-    line-height: 1.4em;
+  text-indent: 20px;
+  font-size: 1.1em;
+  margin: 10px;
+  margin-top: 22px;
+  margin-bottom: 35px;
+  line-height: 1.4em;
 }
 
-
-
-
-
-h2{
-    margin-top: 0; 
-    text-align: left; 
-    font-family: android; 
-    color: #063857;
-    font-size: 2.1em;
-    margin-bottom: 0px;
+h2 {
+  margin-top: 0;
+  text-align: left;
+  font-family: android;
+  color: #063857;
+  font-size: 2.1em;
+  margin-bottom: 0px;
 }
 
 main > img {
-    width: 100%;
-    margin: auto;
-
+  width: 100%;
+  margin: auto;
 }
 
-
 a {
-    color: #063857;
-    text-decoration: none;
-    font-weight: bold;
-    
-    
+  color: #063857;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* footer {
@@ -131,75 +112,70 @@ a {
 } */
 
 .final {
-    background-color: #00534f75;
-    padding: 20px;
-    font-size: 1.15em;
-    border-radius: 20px;
-    padding-top: 0;
+  background-color: #00534f75;
+  padding: 20px;
+  font-size: 1.15em;
+  border-radius: 20px;
+  padding-top: 0;
 }
 
 h3 {
-    background-color: #005C53;
-    padding: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    margin: -20px;
-    
+  background-color: #005c53;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: -20px;
 }
-
 
 .centro {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
 }
 
-
-
 footer {
-    background-color: #005C53;
-    color: white;
-    padding: 10px;
-    text-align: center;
-
+  background-color: #005c53;
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
 
 footer > p {
-    margin: 0;
+  margin: 0;
 }
 
 .linkgit {
-    color: #d3c500ea;
+  color: #d3c500ea;
 }
 
 ul {
-    columns: 2;
-    padding-top: 22px;
-    padding-bottom: 28px;
+  columns: 2;
+  padding-top: 22px;
+  padding-bottom: 28px;
 }
 
 li {
-    padding: 5px;
+  padding: 5px;
 }
 
 .video {
-    background-color: #005C53;
-    padding: 20px;
-    margin-bottom: 120px;
-    margin-top: 0;
-    margin-left: -40px;
-    margin-right: -40px;
-    position: relative;
-    padding-bottom: 59.2%;
+  background-color: #005c53;
+  padding: 20px;
+  margin-bottom: 120px;
+  margin-top: 0;
+  margin-left: -40px;
+  margin-right: -40px;
+  position: relative;
+  padding-bottom: 59.2%;
 }
 
 .video > iframe {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90% ;
-    height: 90%;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
 }
 
 .final > p {
-    text-indent: 20px;
+  text-indent: 20px;
 }
