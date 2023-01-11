@@ -62,7 +62,7 @@ main {
   font-size: 1.1em;
   text-align: justify;
   padding: 30px 40px;
-  min-width: 280px;
+  min-width: 200px;
   max-width: 800px;
   margin: auto;
   border-bottom-left-radius: 40px;
@@ -130,6 +130,7 @@ h3 {
 .centro {
   display: block;
   margin: auto;
+  width: 100%;
 }
 
 footer {
@@ -178,4 +179,8 @@ li {
 
 .final > p {
   text-indent: 20px;
+}
+
+picture {
+    width: 100%;
 }
